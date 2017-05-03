@@ -95,13 +95,7 @@ public class GPChargingConnectorImplNGW implements GPChargingConnectorNGW {
 
             HTTPResponseCode = conn.getResponseCode();
             logger.debug(HTTPResponseCode);
-            /*
-             * if (conn.getResponseCode() != HttpURLConnection.HTTP_OK) { throw
-             * new RuntimeException("Failed : HTTP error code : " +
-             * conn.getResponseCode());
-             * 
-             * }
-             */
+            
 
             BufferedReader br;
 
